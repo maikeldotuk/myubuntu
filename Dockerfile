@@ -14,5 +14,5 @@ RUN apt-get install nano screen -y
 RUN pip install flask
 
 #We run the bash, if we needed some other command we separate them by commas. 
-CMD ["screen bash"]
+CMD ["bash"]
 
